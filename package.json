@@ -1,0 +1,22 @@
+{
+  "name": "raspi1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "mopidy": "^0.5.0",
+    "node-fetch": "^1.7.3",
+    "onoff": "^1.1.9",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "ssh2": "^0.5.5"
+  },
+  "author": "Åsa Liljegren",
+  "license": "ISC"
+}
