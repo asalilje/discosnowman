@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-const tokenUrl = process.env.SPOTIFY_TOKEN_URL;
+const tokenUrl = 'https://accounts.spotify.com/api/token';
 const clientId = process.env.SPOTIFY_TOKEN_CLIENT_ID;
 const clientSecret = process.env.SPOTIFY_TOKEN_CLIENT_SECRET;
 const base64Token = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
