@@ -1,5 +1,5 @@
 # discosnowman
-DiscoSnowman, a bot listening for tweets. twitter.com/discosnowman.
+DiscoSnowman, a bot listening for tweets. `http://twitter.com/discosnowman.`
 
 Deployed on a Raspberry Pi, connected via GPIO 20 and 21 to a disco lamp and a dancing snowman toy. Listening for tweets to the account @discosnowman. Playing music using Mopidy with the Spotify extension.
 
